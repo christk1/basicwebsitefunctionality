@@ -1,0 +1,530 @@
+
+#body{
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-color: black;
+
+}
+#form1{
+  background-color: #33cccc;
+  border-radius: 15px;
+  padding: 50px;
+}
+.LoginSu_button {
+  margin-top: 15px;
+  background-color: red;
+  border: black;
+  border-radius: 4px;
+  color: white;
+    -webkit-transition: background 1s;
+    -moz-transition:    background 1s;
+    -ms-transition:     background 1s;
+    -o-transition:      background 1s;
+    transition:         background 1s;
+}
+
+.LoginSu_button:hover {
+background-color: #ff9933;
+border-radius: 4px;
+
+
+}
+#cont{
+  background-color: #ffffb3;
+  border: solid 5px blue;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: example;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-fill-mode:forwards
+}
+@-webkit-keyframes example {
+    0% {top: -500px;}
+    90% {top: 80px;}
+    100% {top: 50px;}
+}
+
+@keyframes example {
+  0% {top: -500px;}
+  90% {top: 80px;}
+  100% {top: 50px;}
+}
+
+#form2{
+  background-color: #33cccc;
+  border-radius: 15px;
+  padding: 50px;
+}
+.fields{
+  width: auto;
+}
+
+/* callendar */
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+
+#profile_b{
+  float: right;
+  width: 30px;
+  height: 30px;
+  background-color: #666699;
+  border-radius: 5px;
+}
+
+#profile_b:hover{
+  background-color: #a3a3c2;
+}
+
+.sideprof{
+  height: 40%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+
+}
+
+.sideprof a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideprof a:hover {
+    color: #666699;
+}
+
+.sideprof .closebtn {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    font-size: 36px;
+}
+/* drop down button */
+#myBtn1 {
+    border-radius: 5px;
+    background-color: rgb(150,151,153);
+    background-image: url('months/navlogo.png');
+    background-size: cover;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 130px;
+
+
+}
+
+.Header_title{
+  background-color: black;
+  width: 300px;
+  color: red;
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+  left: 0;
+  top: 0;
+  margin: auto;
+  border-radius: 15px;
+}
+#myBtn1:hover{
+    background-color: red;
+}
+
+.inside{
+  background: url('backgCal.jpg') no-repeat;
+  background-size: cover;
+  background-color: rgb(150,151,153);
+}
+#canvas{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+#admin_logo{
+  float: right;
+}
+
+#admake{
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  width: 150px;
+  height: 70px;
+  float: right;
+
+}
+#admint{
+  width: 40px;
+}
+#comint{
+  width: 40px;
+}
+#delete_com{
+  padding: 40px;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  width: 150px;
+  height: 70px;
+  float: right;
+  margin-right: 10px;
+
+}
+#admin_tools{
+  width: 470px;
+  margin: auto;
+
+}
+
+.days textarea{
+  resize: none;
+  border: #333333;
+  float: left;
+  margin-top: 35%;
+
+}
+.days input{
+  float: left;
+  margin-left: 17px;
+}
+#inittext{
+   resize: none;
+   background-color: #1a1a1a;
+   margin-top: 200px;
+   font-size: 30px;
+   color: rgb(239, 62, 52);
+   width: 100%;
+   height: 150px;
+
+}
+.days {
+    background: url('months/november.jpg') no-repeat;
+    background-size: 100% 50% ;
+    background-color: #333333;
+    border:solid black;
+    width: 412px;
+    height: 400px;
+    font-size:50px;
+    font-family:Courier New;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+        padding: 10px 0;
+        margin-top: 80px;
+        text-align: center;
+        border-radius: 15px;
+        left: 0;
+        top:0;
+        margin:auto;
+        margin-bottom: 20px;
+
+
+}
+/* admin work */
+.days:hover{
+    box-shadow: 3px 3px 2px black;
+}
+
+.modal {
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 15px;
+    position: relative;
+    background-color: #333333;
+    margin: auto;
+    margin-bottom: 20%;
+    padding: 0;
+    border: 1px solid #888;
+    width: 300px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+#updateb{
+  margin: auto;
+  margin-left: 100px;
+}
+#downbtn{
+  float: left;
+}
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {padding: 80px 16px;
+
+    font-size:15px;
+    text-align: center;
+            }
+
+
+#editedmes{
+border-radius: 5px;
+background: #0d0d0d;
+margin-top: 0px;
+margin-left: 60px;
+color: rgb(239, 62, 52);
+
+}
+
+.listitems{
+text-align: center;
+
+}
+.listitems:hover{
+  color: red;
+}
+.listitems1{
+text-align: center;
+color: #666699;
+}
+#list_button{
+  margin-left: 60px;
+}
+
+.sidenav {
+    height: 91%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: #818181;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 380px) {
+
+  #editedmes{
+    margin-left: 39px;
+  }
+  .days{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+  #inittext{
+    margin-top: 110px;
+    height: 75px;
+    font-size: 16px;
+  }
+  .Header_title{
+      width: 100%;
+      margin: auto;
+  }
+  #admake{
+    width: 150px;
+    height: 70px;
+    margin: auto;
+
+  }
+  #myBtn1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+  }
+  .modal-content {
+  width: 250px;
+  margin-bottom: 110px;
+  }
+  #updateb{
+    margin: auto;
+    margin-left: 75px;
+  }
+  #cont{
+    padding: 25px;
+  }
+  #form1{
+    text-align: center;
+    padding: 5px;
+  }
+  #form2{
+    padding:5px;
+    text-align: center;
+  }
+  .fields{
+    width: 60px;
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 508px) {
+
+  .inside{
+    background-image: url('backphone.png');
+    background-size: cover;
+  }
+  #admin_tools{
+    width: 220px;
+    margin: auto;
+}
+  #delete_com{
+float: inherit;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+
+  }
+  #admake{
+    float: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+@media screen and (max-width: 780px) {
+  #cont{background-color: #001e33;}
+  #body{
+    background-image: url('smartp.jpg');
+    background-size: cover;
+    background-color: black;
+
+  }
+  .inside{
+  background-size: 100% 100%;}
+  .days{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+  #inittext{
+    margin-top: 110px;
+    height: 75px;
+    font-size: 16px;
+  }
+  .Header_title{
+
+      margin: auto;
+  }
+  #admake{
+    width: 150px;
+    height: 70px;
+    margin: auto;
+
+  }
+  #cont{
+    height: 250px;
+    width: 250px;
+  }
+  #form1{
+    padding: 30px;
+  }
+  #form2{
+    padding:30px;
+  }
+  .fields{
+    width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  .days{
+    width: 300px;
+    height: 300px;
+  }
+  #inittext{
+    margin-top: 150px;
+    height: 110px;
+    font-size: 20px;
+  }
+
+}
