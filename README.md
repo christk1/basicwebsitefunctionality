@@ -12,7 +12,7 @@ delete comments and change a regular user to admin.
 Initially there aren't admins so the first one should became through phpmyadmin webpage
 by changing type 'user' to 'admin'
 
-[here]() is a short video demonstration.
+[here](https://www.youtube.com/watch?v=ik7unS00rq0&feature=youtu.be) is a short video demonstration.
 
 Below are the required steps for it to run in localhost.
 
